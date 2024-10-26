@@ -1,11 +1,9 @@
 package server
 
 import (
-	"github.com/ArkamFahry/simpleraft/server/rafthandlers"
-	"github.com/ArkamFahry/simpleraft/server/storehandlers"
-	"github.com/dgraph-io/badger/v2"
-	"github.com/gofiber/fiber/v2"
 	"github.com/hashicorp/raft"
+	"github.com/teapartydev/simpleraft/server/rafthandlers"
+	"github.com/teapartydev/simpleraft/server/storehandlers"
 )
 
 type Srv struct {

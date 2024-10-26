@@ -7,9 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ArkamFahry/simpleraft/fsm"
-	"github.com/gofiber/fiber/v2"
 	"github.com/hashicorp/raft"
+	"github.com/teapartydev/simpleraft/fsm"
 )
 
 // insertRequest payload for storing new data in raft cluster

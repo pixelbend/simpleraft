@@ -1,4 +1,4 @@
-module github.com/ArkamFahry/simpleraft
+module github.com/teapartydev/simpleraft
 
 go 1.21.6
 
